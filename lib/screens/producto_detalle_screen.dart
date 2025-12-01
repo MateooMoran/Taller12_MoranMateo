@@ -137,11 +137,6 @@ class _ProductoDetalleScreenState extends State<ProductoDetalleScreen> {
                         icon: const Icon(Icons.add_shopping_cart),
                         label: const Text('Agregar al carrito'),
                         onPressed: () {
-                          ScaffoldMessenger.of(context).showSnackBar(
-                            SnackBar(
-                              content: Text('${p.nombre} agregado al carrito'),
-                            ),
-                          );
                         },
                       ),
                     ),
